@@ -1,0 +1,7 @@
+$col-base: 12;
+
+@for $i from 1 through $col-base {
+	.col-#{$i} {
+		width: (100%/$col-base)*$i;
+	}
+}

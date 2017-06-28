@@ -1,0 +1,22 @@
+@import 'grid';
+@import 'utils';
+
+body{
+	width: 90%;
+	margin: 0 auto;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+header{
+	padding-top: 4rem;
+}
+nav{
+	padding: 1rem 0;
+	a{
+		text-decoration: none;
+		display: inline-block;
+		margin: 0 5px;
+	}
+}
